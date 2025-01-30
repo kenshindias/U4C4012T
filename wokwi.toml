@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/U4C4012T.hex'
+elf = 'build/U4C4012T.elf'
