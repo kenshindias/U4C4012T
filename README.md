@@ -158,4 +158,4 @@ Sinta-se à vontade para contribuir ou modificar conforme necessário!
 ---
 
 Se você tiver dúvidas ou sugestões, **abra uma issue ou envie um pull request!** 🚀  
-Autor: **@SeuNome**
+Autor: **@kenshindias**
