@@ -13,6 +13,12 @@ O projeto também inclui **botões** para alterar o número mostrado e um **LED 
 
 ---
 
+## 🎥 **Demonstração**
+Confira o funcionamento do projeto neste vídeo:
+[![Vídeo de demonstração](https://img.youtube.com/vi/zd_Ih7RQxVw/0.jpg)](https://youtu.be/zd_Ih7RQxVw)
+
+---
+
 ## 🛠 **Componentes Necessários**
 - 🖥 **Raspberry Pi Pico**
 - 🟢 **Matriz WS2812 (NeoPixel) 5x5** (conectada ao **GPIO 7**)
@@ -129,18 +135,6 @@ static const uint8_t LEDmap[5][5] = {
 };
 ```
 
-- Os LEDs são atualizados no **`update_matrix()`**, garantindo que os números apareçam corretamente.
-
-```c
-for (int row = 0; row < 5; row++) {
-    for (int col = 0; col < 5; col++) {
-        int logicalIndex = row * 5 + col;
-        int physicalIndex = LEDmap[row][col];
-        ledBuffer[physicalIndex] = (numbers[number][logicalIndex] == 1) ? color_on : color_off;
-    }
-}
-```
-
 ---
 
 ## 🚀 **Possíveis Melhorias**
@@ -159,3 +153,4 @@ Sinta-se à vontade para contribuir ou modificar conforme necessário!
 
 Se você tiver dúvidas ou sugestões, **abra uma issue ou envie um pull request!** 🚀  
 Autor: **@kenshindias**
+
