@@ -138,14 +138,6 @@ static const uint8_t LEDmap[5][5] = {
 
 ---
 
-## 🚀 **Possíveis Melhorias**
-✅ Suporte para **mais efeitos visuais** (transições suaves entre números).  
-✅ Suporte para **diferentes cores nos números**.  
-✅ Modo **"contador automático"** para exibir os números sem precisar dos botões.  
-✅ Integração com **sensor externo** (ex.: encoder rotativo ou joystick).  
-
----
-
 ## 📜 **Licença**
 Este projeto é de código aberto e pode ser usado livremente para fins educacionais ou pessoais.  
 Sinta-se à vontade para contribuir ou modificar conforme necessário!
